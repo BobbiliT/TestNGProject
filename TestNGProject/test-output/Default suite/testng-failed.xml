@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNgListners.SetBrowser">
+      <class name="TestNGbasicpractice.TestFacebookchrome">
         <methods>
-          <include name="test"/>
+          <include name="GetTitle"/>
+          <include name="closebrowser"/>
+          <include name="enterinputs"/>
           <include name="setup"/>
-          <include name="close"/>
+          <include name="verifytestboxs"/>
         </methods>
-      </class> <!-- TestNgListners.SetBrowser -->
+      </class> <!-- TestNGbasicpractice.TestFacebookchrome -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
