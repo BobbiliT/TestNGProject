@@ -17,6 +17,7 @@ public class Listners extends utilshot implements ITestListener {
 
 	@Override
 	public void onTestFailure(ITestResult result) {
+		// here get screeshot the failed testcase 
 		try {
 			getscreenshot();
 		} catch (Exception e) {
