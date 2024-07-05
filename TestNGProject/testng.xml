@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="ExtentReportListener.ExtentReporterNG"></listener>
+		<listener class-name="HybrdenFrameWork.testnglistner"></listener>
+	</listeners>
+  <test thread-count="5" name="chromebrowser">
+	<parameter name="browser" value="chrome"></parameter>
+	<classes>
+		<class name="HybrdenFrameWork.base"></class>
+		<class name="HybrdenFrameWork.testng"></class>
+	</classes>
+  </test> <!-- Test -->
+  <test name="firefoxbrowser">
+	<parameter name="browser" value="Firefox"></parameter>
+	<classes>
+		<class name="HybrdenFrameWork.base"></class>
+		<class name="HybrdenFrameWork.testng"></class>
+	</classes>
+  </test>
+</suite> <!-- Suite -->

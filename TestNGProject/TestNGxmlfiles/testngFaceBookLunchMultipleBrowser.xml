@@ -11,7 +11,7 @@
 	</classes>
   </test> <!-- Test -->
   <test name="firefox browser">
-	<parameter name="browser" value=""></parameter>
+	<parameter name="browser" value="firefox"></parameter>
 	<classes>
 		<class name="ParameterizeTestCase.LunchMultipuleBrowser"></class>
 	</classes>
