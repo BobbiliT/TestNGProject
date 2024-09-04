@@ -5,6 +5,9 @@
     <classes>
       <class name="TestNGbasicpractice.failedtest">
         <methods>
+          <include name="beforetest"/>
+          <include name="test2"/>
+          <include name="aftertest"/>
           <include name="test3"/>
         </methods>
       </class> <!-- TestNGbasicpractice.failedtest -->
