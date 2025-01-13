@@ -36,7 +36,6 @@ public class LunchMultipuleBrowser {
 		driver.get(url);
 		String us=pro.getProperty("username");
 		WebElement fus=driver.findElement(By.id("email"));
-		System.out.println(fus.getAttribute("value"));
 		String ps=pro.getProperty("password");
 		WebElement pps=driver.findElement(By.id("pass"));
 		for(int i=0; i<=2; i++) {
@@ -51,3 +50,11 @@ public class LunchMultipuleBrowser {
 	}
 	
 }
+// - execute the test script with multiple set of data by taking data from external source file is know as data parameteriztion
+// - we can have multiple approches to access them
+// - In testng suite file, what we do is, we have declered and initialize the paramater by using parameter tag
+// - once the parameter declered and initialize, we utilize those paramter from any testng class by using @parameter annotation
+// - As an argument to the parameter annotation, we need to pass the parameter name which is declered in suite
+// - we can access multiple parameter as well by using String array
+// - then after we should creating local variable in the test method, we can access these parameter values and utileze in our script
+// - this is how, we can access data parameterization in testng suite file.
