@@ -31,7 +31,7 @@ public class UsingmultiBrowser {
 		else {
 			driver = new EdgeDriver();
 		}
-		FileInputStream file = new FileInputStream(".//TestData.config");
+		FileInputStream file = new FileInputStream(".//config.properties");
 		Properties p = new Properties();
 		p.load(file);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));

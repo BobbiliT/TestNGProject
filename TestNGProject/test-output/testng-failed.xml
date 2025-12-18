@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="A_PRACTICES.skipExecption">
+      <class name="A_PRACTICES.parameterization">
         <methods>
-          <include name="test2"/>
+          <include name="details"/>
         </methods>
-      </class> <!-- A_PRACTICES.skipExecption -->
+      </class> <!-- A_PRACTICES.parameterization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
