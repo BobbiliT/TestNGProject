@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="A_PRACTICES.parameterization">
+      <class name="Data_Parameterization.With_Suite_File">
         <methods>
-          <include name="details"/>
+          <include name="datapar"/>
         </methods>
-      </class> <!-- A_PRACTICES.parameterization -->
+      </class> <!-- Data_Parameterization.With_Suite_File -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
